@@ -53,3 +53,14 @@ footer p {
 .related {
   list-style: none;
 }
+
+/* working with colors */
+h1,
+h2,
+h3 {
+  color: grey;
+}
+
+aside {
+  border-color: aqua;
+}

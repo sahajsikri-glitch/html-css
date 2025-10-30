@@ -55,7 +55,6 @@ footer p {
 }
 
 /* working with colors */
-h1,
 h2,
 h3 {
   color: grey;
@@ -63,4 +62,33 @@ h3 {
 
 aside {
   border-color: aqua;
+  border-top: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+}
+
+/* pseudo class */
+.first_li {
+  font-weight: bold;
+}
+
+/* BETTER WAY  */
+li:first-child {
+  font-weight: bold;
+}
+article p {
+  color: black;
+}
+
+/* styling hyperlinks */
+a:hover {
+  color: greenyellow;
+}
+a:active {
+  color: greenyellow;
+}
+a:link {
+  color: greenyellow;
+}
+a:visited {
+  color: greenyellow;
 }

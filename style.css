@@ -1,7 +1,7 @@
 /*using floats*/
-h1 {
-  /* background-color: brown; */
-  padding-bottom: 30px;
+/* h1 { */
+/* background-color: brown; */
+/* padding-bottom: 30px;
   float: left;
 }
 nav a {
@@ -10,5 +10,24 @@ nav a {
   margin-top: 20px;
 }
 h2 {
-  clear: both;
+  clear: both; */
+/* } */
+
+/* building a simple float layout */
+article {
+  background-color: aqua;
+  width: 800px;
+  float: left;
+  margin-left: 40px;
+}
+aside {
+  background-color: blue;
+  width: 400px;
+  float: right;
+  margin-right: 40px;
+}
+footer {
+  background-color: brown;
+  clear: both; /*(clear = used when we do not want it to float around eveyrone) */
+  margin: 40px;
 }

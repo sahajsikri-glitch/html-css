@@ -15,19 +15,25 @@ h2 {
 
 /* building a simple float layout */
 article {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 800px;
   float: left;
   margin-left: 40px;
 }
 aside {
-  background-color: blue;
+  /* background-color: blue; */
   width: 400px;
   float: right;
   margin-right: 40px;
+  /* padding-right: 500px; */
 }
 footer {
-  background-color: brown;
+  /* background-color: brown; */
   clear: both; /*(clear = used when we do not want it to float around eveyrone) */
   margin: 40px;
+}
+
+/* box-sizing : border-box:  */
+* {
+  box-sizing: border-box;
 }

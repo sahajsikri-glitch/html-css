@@ -38,6 +38,7 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
+        gap: 30px;
 
         /*introduction to FLEXBOX*/
         display: flex;
@@ -45,6 +46,17 @@
         align-items: start; /*to put them on top */
         align-items: end; /*to put them at the bottom*/
         justify-content: space-between; /*for giving space in between conetent*/
+      }
+
+      /* spacing and aligning flex items */
+      .el--1 {
+        align-self: flex-start; /*align self same as align items but for particular item */
+      }
+      .el--5 {
+        align-self: stretch;
+      }
+      .el--6 {
+        order: -1; /*( 0 = default order 1 2 3 = for last one ; -1 -2 -3 for first one) */
       }
     </style>
   </head>
@@ -56,8 +68,8 @@
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
       <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>

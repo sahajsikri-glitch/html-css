@@ -56,9 +56,6 @@ aside {
 /* .related {
   display: flex;
 } */
-.related {
-  background-color: bisque;
-}
 .related-points {
   display: flex;
   margin-bottom: 25px;
@@ -73,4 +70,21 @@ aside {
   font-weight: bold;
   margin-bottom: 7px;
   display: block;
+}
+
+/* Building a simple flexbox layout */
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+aside {
+  background-color: bisque;
+  flex: 0 0 350px;
+  border-top: 7px grey solid;
+  border-bottom: 7px grey solid;
+  margin-top: 30px;
+}
+h4 {
+  text-align: center;
+  font-size: larger;
 }
